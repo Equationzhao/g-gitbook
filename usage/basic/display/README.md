@@ -1,0 +1,7 @@
+---
+description: output setting
+---
+
+# Display
+
+###
