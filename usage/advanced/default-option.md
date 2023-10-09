@@ -13,7 +13,7 @@ Args:
     - #
 ```
 
-`g` will load the config and add these option to os.Args
+`g` will load the config and add these options to os.Args
 
 use `--no-config` to ignore the config
 

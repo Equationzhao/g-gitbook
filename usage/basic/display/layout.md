@@ -8,7 +8,7 @@ description: output layout
 
 `--format=layout`
 
-across -x, commas -m, horizontal -x, long -l, single-column -1, verbose -l, vertical -C, table -tb, HTML -html, Markdown -md, CSV -csv, json -j, tree -T
+across -x, commas -m, horizontal -x, long -l, single-column -1, verbose -l, vertical -C, table -tb, HTML -html, Markdown -md, CSV -csv, TSV -tsv, json -j, tree -T
 
 | layout        | aliases       | annotation                                                    |
 | ------------- | ------------- | ------------------------------------------------------------- |
@@ -20,6 +20,7 @@ across -x, commas -m, horizontal -x, long -l, single-column -1, verbose -l, vert
 | HTML          | html          | no color and icons                                            |
 | Markdown      | md            | no color and icons                                            |
 | CSV           | csv           | no color and icons                                            |
+| TSV           | tsv           | no color and icons                                            |
 | json          | j             | no color and icons                                            |
 | tree          | T             |                                                               |
 
@@ -38,7 +39,7 @@ list in trees&#x20;
 <figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-some feature doesn't  work well in tree view.
+some feature doesn't work well in the tree view.
 
 git/git ignore only works when the target dir/file is in git repo
 
@@ -61,4 +62,4 @@ recurse into directory&#x20;
 
 ### Others
 
-Please refer to [man page](https://github.com/Equationzhao/g/blob/master/g.md) or program output with  `--help`&#x20;
+Please refer to the [man page](https://github.com/Equationzhao/g/blob/master/g.md) or program output with  `--help`&#x20;

@@ -26,7 +26,7 @@ do not list implied entries ending with \~
 
 `--git-ignore`&#x20;
 
-### ignore entries matching given Glob
+### ignore entries matching the given Glob
 
 `--ignore-glob` or `--ignore` , `-I`&#x20;
 

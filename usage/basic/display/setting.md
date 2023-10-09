@@ -14,9 +14,9 @@ disable color
 
 ### theme
 
-`g` uses json file to configure custom theme
+`g` uses JSON file to configure custom theme
 
-colors listed below are supported
+The colors listed below are supported
 
 ```
 Black       
@@ -104,7 +104,7 @@ hex form: `[str]@hex`
 ```
 {% endcode %}
 
-full theme : [\[default\]](https://github.com/Equationzhao/g/blob/v0.11.2/theme/default.json)
+full theme : [\[default\]](https://github.com/Equationzhao/g/blob/master/theme/default.json)
 
 #### apply theme
 
