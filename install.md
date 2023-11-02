@@ -10,10 +10,10 @@ description: how to install g
 
 ### Build from source
 
-g is written in Golang, so if you want to build g your self, you should have go1.20 (or later) installed.
+g is written in Golang, so if you want to build g yourself, you should have go1.21 (or later) installed.
 
 ```bash
-go install -ldflags="-s -w -v"  github.com/Equationzhao/g@latest
+go install -ldflags="-s -w"  github.com/Equationzhao/g@latest
 ```
 
 make sure `$GOPATH/bin` is in your `PATH`
@@ -46,7 +46,8 @@ scoop install https://raw.githubusercontent.com/Equationzhao/g/master/scoop/g.js
 
 ```powershell
 # upgrade
-scoop uninstall g # uninstall first scoop install https://raw.githubusercontent.com/Equationzhao/g/master/scoop/g.json
+scoop uninstall g # uninstall first scoop 
+install https://raw.githubusercontent.com/Equationzhao/g/master/scoop/g.json
 # error msg like this can be ignored
 # Move-Item: 
 # Line |

@@ -16,7 +16,7 @@ description: entries' meta data to show
 
 <figure><img src="../../.gitbook/assets/截屏2023-06-18 21.45.50.png" alt=""><figcaption></figcaption></figure>
 
-#### Qoute name
+#### Quote name
 
 enclose entry names in double quotes(overridden by `--literal`)
 
@@ -40,15 +40,19 @@ show git status
 --time
 ```
 
-<figure><img src="../../.gitbook/assets/截屏2023-06-18 15.14.54.png" alt="" width="275"><figcaption></figcaption></figure>
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 the default time is modified time, which can be changed by option `--time-type`
 
-or use option `--create`  `--mod`  `--access`
+or use option `--create`  `--mod`  `--access`  `--birth(macOS)`
 
 <table><thead><tr><th>type</th><th>option</th><th data-hidden></th></tr></thead><tbody><tr><td>access</td><td>time-type=access</td><td></td></tr><tr><td>modified</td><td>time-type=mod</td><td></td></tr><tr><td>create</td><td>time-type=create</td><td></td></tr></tbody></table>
 
-if you want to show them all, use option `--time-type=access,mod,create` to combine them
+if you want to show them all, use the option `--time-type=access,mod,create,birth` to combine them
 
 <figure><img src="../../.gitbook/assets/截屏2023-06-18 15.25.14.png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -86,9 +90,9 @@ use `--relative-time`
 
 `--size`
 
-#### recursice size
+#### recursive size
 
-the size of directory is itself, use `g --size --recursive-size` to show size of the whole directory&#x20;
+the size of the directory is itself, use `g --size --recursive-size` to show the size of the whole directory&#x20;
 
 <div>
 
@@ -121,7 +125,7 @@ or `--block-size=...`
 `g --inode`
 
 {% hint style="info" %}
-not working in Windows&#x20;
+not working on Windows&#x20;
 {% endhint %}
 
 ### with link
@@ -151,6 +155,10 @@ or just `g --uid/gid`
 #### mime parent type
 
 `g --mime-parent`
+
+#### charset
+
+`g --charset`
 
 #### detect size
 

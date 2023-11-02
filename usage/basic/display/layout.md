@@ -52,7 +52,7 @@ recurse into directory&#x20;
 
 `--recurse` or `-R`&#x20;
 
-<figure><img src="../../../.gitbook/assets/截屏2023-06-18 22.06.18.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 ### Limit tree/recurse depth
 

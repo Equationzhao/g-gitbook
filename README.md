@@ -4,13 +4,7 @@ description: Introduction
 
 # Start
 
-g is a crossplatform ls, providing more features and user-friendly options
-
-<div data-full-width="true">
-
-<figure><img src="https://github.com/Equationzhao/g/blob/master/how-g-works.gif?raw=true" alt=""><figcaption></figcaption></figure>
-
-</div>
+g is a cross-platform ls, providing more features and user-friendly options
 
 <figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption><p>list almost all entries in directory 'g' with their git-status in long and tree view, ignoring '.git'</p></figcaption></figure>
 
@@ -26,4 +20,4 @@ g is a crossplatform ls, providing more features and user-friendly options
 
 ### Why is it called g
 
-Because it's written in golang, and `g` is easy to type in keyborad :joy:
+Because it's written in go, and `g` is easy to type in keyboard :joy:
