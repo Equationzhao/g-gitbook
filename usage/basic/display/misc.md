@@ -28,6 +28,6 @@ option `--duplicate` will find duplicates in the directory and display them if a
 
 ### statistic
 
-option `--statistic` will show some statistic above
+statisticsoption `--statistic` will show some statistic above
 
 <figure><img src="../../../.gitbook/assets/截屏2023-06-18 21.42.20.png" alt=""><figcaption></figcaption></figure>

@@ -104,6 +104,18 @@ hex form: `[str]@hex`
 ```
 {% endcode %}
 
+```json
+"readme": {
+            "color": "yellow",
+            "icon": "<U+F48A>",
+            "underline": true,
+            "bold": true,
+            "faint": false,
+            "italics": false,
+            "blink": false
+},
+```
+
 full theme : [\[default\]](https://github.com/Equationzhao/g/blob/master/theme/default.json)
 
 #### apply theme

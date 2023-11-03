@@ -144,6 +144,10 @@ not working on Windows&#x20;
 
 or just `g --uid/gid`
 
+#### smart-group
+
+show the group name only when it's different from the owner
+
 ### with permission bits
 
 `g --perm`&#x20;
@@ -162,7 +166,7 @@ or just `g --uid/gid`
 
 #### detect size
 
-when enabling mime-type option, `g` will read the file to detect mime type
+when enabling the mime-type option, `g` will read the file to detect mime type
 
 use `--exact-detect-size=512kb/1M/.../nolimit/infinity` to change the size of bytes g will read from the file&#x20;
 

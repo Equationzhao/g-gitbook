@@ -10,7 +10,7 @@
 
 ### no directories, files only
 
-`-no-dir` or --`file`
+`--no-dir` or `--file`
 
 ### no files, directories only
 
