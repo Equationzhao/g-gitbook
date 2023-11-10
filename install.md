@@ -38,7 +38,9 @@ brew tap equationzhao/core git@github.com:Equationzhao/homebrew-g.git
 brew install g-ls
 ```
 
-#### Windows scoop&#x20;
+#### Windows&#x20;
+
+#### scoop
 
 ```powershell
 scoop install https://raw.githubusercontent.com/Equationzhao/g/master/scoop/g.json
@@ -46,9 +48,9 @@ scoop install https://raw.githubusercontent.com/Equationzhao/g/master/scoop/g.js
 
 ```powershell
 # upgrade
-scoop uninstall g # uninstall first scoop 
+scoop uninstall g # uninstall first
 install https://raw.githubusercontent.com/Equationzhao/g/master/scoop/g.json
-# error msg like this can be ignored
+# Error msg like this can be ignored
 # Move-Item: 
 # Line |
 #    2 |  mv g-amd64.exe g.exe
@@ -58,6 +60,12 @@ install https://raw.githubusercontent.com/Equationzhao/g/master/scoop/g.json
 #    3 |  mv g-amd64.shim g.shim
 #      |  ~~~~~~~~~~~~~~~~~~~~~~
 ```
+
+#### winget \[help wanted]
+
+feel free to contribute if you're interested in this project and familiar with `winget`&#x20;
+
+[https://github.com/Equationzhao/g/issues/119](https://github.com/Equationzhao/g/issues/119)
 
 ### Validate Installation&#x20;
 
@@ -81,3 +89,6 @@ you should see output like this:
  | There is NO WARRANTY, to the extent permitted by law.
 ```
 
+## check new version
+
+`g --check-new-version`

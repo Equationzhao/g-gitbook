@@ -32,7 +32,7 @@ it will sort entries by extension first, for those having the same extension, co
 
 #### nature sort
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>nature sort</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>nature sort</p></figcaption></figure>
 
 <table><thead><tr><th>type </th><th data-type="number">Priority </th></tr></thead><tbody><tr><td>hidden directory </td><td>0</td></tr><tr><td>directory</td><td>1</td></tr><tr><td>files</td><td>2</td></tr><tr><td>link</td><td>3</td></tr><tr><td>name</td><td>4</td></tr></tbody></table>
 
