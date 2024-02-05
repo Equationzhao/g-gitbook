@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Start](README.md)
-* [Install](install.md)
+* [Installation](installation.md)
 
 ## 🥳 Usage
 

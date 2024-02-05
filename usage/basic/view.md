@@ -4,9 +4,9 @@ description: entries' meta data to show
 
 # View
 
-### Name
+Name
 
-#### show full path
+#### show full path (relative to /)
 
 `--full-path`&#x20;
 
@@ -14,9 +14,9 @@ description: entries' meta data to show
 
 `--relative-to=base`&#x20;
 
-<figure><img src="../../.gitbook/assets/截屏2023-06-18 21.45.50.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
-#### Quote name
+Quote name
 
 enclose entry names in double quotes(overridden by `--literal`)
 
@@ -32,35 +32,29 @@ show git status
 
 `--git`&#x20;
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 #### Git branch-name/repo-status
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 ### with time
 
-```bash
---time
-```
+`--time`
 
-<div data-full-width="true">
+<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+the default time is modified time, and can be changed by flag `--time-type`
 
-</div>
+or use flag `--create`  `--mod`  `--access`  `--birth(macOS)`
 
-the default time is modified time, which can be changed by option `--time-type`
+<table><thead><tr><th>type</th><th>option</th><th data-hidden></th></tr></thead><tbody><tr><td>accessed</td><td>time-type=accessed</td><td></td></tr><tr><td>modified</td><td>time-type=modified</td><td></td></tr><tr><td>created</td><td>time-type=created</td><td></td></tr></tbody></table>
 
-or use option `--create`  `--mod`  `--access`  `--birth(macOS)`
+if you want to show them all, use the option `--time-type=accessed,modified,created,birth` to combine them
 
-<table><thead><tr><th>type</th><th>option</th><th data-hidden></th></tr></thead><tbody><tr><td>access</td><td>time-type=access</td><td></td></tr><tr><td>modified</td><td>time-type=mod</td><td></td></tr><tr><td>create</td><td>time-type=create</td><td></td></tr></tbody></table>
-
-if you want to show them all, use the option `--time-type=access,mod,create,birth` to combine them
-
-<figure><img src="../../.gitbook/assets/截屏2023-06-18 15.25.14.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 #### change time-style&#x20;
 
