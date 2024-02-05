@@ -80,12 +80,6 @@ Also, the TIME\_STYLE environment variable sets the default style to use.
 
 use `--relative-time`
 
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/截屏2023-06-18 16.00.03.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
 ### with size
 
 `--size`
@@ -93,16 +87,6 @@ use `--relative-time`
 #### recursive size
 
 the size of the directory is itself, use `g --size --recursive-size` to show the size of the whole directory&#x20;
-
-<div>
-
-<figure><img src="../../.gitbook/assets/截屏2023-06-18 16.22.13.png" alt="" width="229"><figcaption><p>size</p></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/截屏2023-06-18 16.47.23.png" alt="" width="209"><figcaption><p>recursive size</p></figcaption></figure>
-
-</div>
 
 #### change unit
 
@@ -113,8 +97,6 @@ or `--block-size=...`
 #### total size
 
 `--total-size --size` show the total size of all listing files/directories (overridden by --`no-total-size`)
-
-<figure><img src="../../.gitbook/assets/截屏2023-06-18 16.50.02.png" alt="" width="325"><figcaption></figcaption></figure>
 
 ### with blocks
 
@@ -181,5 +163,3 @@ default: sha1
 use `--checksum-algorithm=algo1,algo2...` to change algorithm
 
 > algo: md5,sha1, sha224, sha256, sha384, sha512, crc32
-
-<figure><img src="../../.gitbook/assets/截屏2023-06-18 19.35.18.png" alt=""><figcaption></figcaption></figure>

@@ -28,30 +28,24 @@ do not list implied entries ending with \~
 
 ### ignore entries matching the given Glob
 
-`--ignore-glob` or `--ignore` , `-I`&#x20;
+`--ignore` , `-I`&#x20;
 
 ### entries matching Glob
 
-`--glob` or `match` , `-M`
+`match` , `-M`
 
-### files ending with target extension
+### filename ending with target extension
 
 `--ext=ext1,ext2,...` : show matched results
 
-<figure><img src="../../.gitbook/assets/截屏2023-06-19 01.17.36.png" alt="" width="315"><figcaption></figcaption></figure>
-
-`--noext=ext1,ext2,...` : ignore matched results
-
-<figure><img src="../../.gitbook/assets/截屏2023-06-19 01.21.02.png" alt=""><figcaption></figcaption></figure>
+`--no-ext=ext1,ext2,...` : ignore matched results
 
 ### files matching given mime types
 
-`--mime-only=target1,target2,...`
-
-<figure><img src="../../.gitbook/assets/截屏2023-06-19 01.56.35.png" alt=""><figcaption></figcaption></figure>
+`--only-mime=target1,target2,...`
 
 {% hint style="info" %}
-`--mime-only` will not match or remove any directory
+`--only-mime` will not match or remove any directory
 
 use `--nodir` to remove all the directories&#x20;
 {% endhint %}
@@ -62,7 +56,7 @@ use `--nodir` to remove all the directories&#x20;
 
 > num < 0 means infinity
 
-<figure><img src="../../.gitbook/assets/截屏2023-06-18 22.23.29.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 ### before/after
 

@@ -2,13 +2,9 @@
 
 ### with Number
 
-`-#`:
+`-#`
 
-<div data-full-width="false">
-
-<figure><img src="../../../.gitbook/assets/截屏2023-06-18 19.44.07.png" alt="" width="80"><figcaption></figcaption></figure>
-
-</div>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### Header(Title) | Footer
 
@@ -18,13 +14,13 @@ Adds header or footer row to each column
 
 `--footer` for footer
 
-<figure><img src="../../../.gitbook/assets/截屏2023-06-18 21.18.28.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ### find duplicates
 
 option `--duplicate` will find duplicates in the directory and display them if any
 
-<figure><img src="../../../.gitbook/assets/截屏2023-06-18 21.25.26.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 ### statistic
 
